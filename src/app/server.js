@@ -13,4 +13,4 @@ res.sendFile (path.join (__ dirname +'/dist/<my-app>/index.html'));
 });
 
 // Démarrer l'application en écoutant le port Heroku par défaut
-app.listen (process.env.PORT || 8080);
+app.listen (process.env.PORT || 4200);
